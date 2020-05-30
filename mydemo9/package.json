@@ -1,0 +1,17 @@
+{
+  "name": "mydemo9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "cross-env DEBUG=true webpack-dev-server --open",
+    "build": "cross-env DEBUG=false webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^5.2.1",
+    "webpack": "^4.43.0"
+  }
+}
